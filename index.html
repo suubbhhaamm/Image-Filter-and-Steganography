@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image Filter & Steganography</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <head>
+    <title>IMAGE FILTER</title>
+  </head>
+  <body>
+    <h1> FUN WITH IMAGE FILTER</h1>
+    <script src = "http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <canvas id = "can"></canvas>
+    
+    <div class = "division"><b>Insert Image</b>
+      <input type = "file" multiple = "false" accept = "image/*" id = "finput" onchange = "upload()">
+    </div >
+
+    <div class="forscrollingDown"><center>Scroll Down</center><center>for</center>Steganography<center><font size="+3">☟☟☟☟</font></center> </div>
+    
+    <h2><center>CHOOSE FILTER TO APPLY</center></h2>
+    <div class = "division">
+      <input type = "button" value = "Grayscale" id = "b1" onclick = "makeGrayscale()">
+      <input type = "button" value = "Negative" id = "b2" onclick = "makeNegative()">
+      <input type = "button" value = "Red" id = "b3" onclick = "makeRed()">
+      <input type = "button" value = "Blue" id = "b4" onclick = "makeBlue()">
+      <input type = "button" value = "Green" id = "b5" onclick = "makeGreen()">
+      <input type = "button" value = "Rainbow" id = "b6" onclick = "makeRainbow()">
+      <input type = "button" value = "Blurr" id = "b7" onclick = "makeBlurr()">
+    </div>
+    
+    <div class = "division">
+      <input type = "button" value = "Reset Image" 
+            id = "b8" onclick = "resetImage()">
+    </div>
+    
+    <h1>SECRECY WITH STEGANOGRAPHY</h1>
+
+    <div id="infoDivision">
+      <p>
+        <b> Steganography is the technique of hiding secret data within an ordinary, non-secret, file or message in order to avoid detection, 
+        the secret data is then extracted at its destination. The use of steganography can be combined with encryption as an extra step for hiding
+        or protecting data.<br>
+        Basically its a concept in which we can hide data inside an image. Here, data could be in image form only. Therefore we can conclude saying
+        that it allows to hide some other image inside an image. <br><br>You can acknowledge this from below 2 sections:<br><br>
+        
+        ➤ <u>Hidding Section:</u> Here viewable image and the image to hide are uploaded and the resulting image with secret image hidden is obtained
+          this can be download by simply right clicking and then saving the image<br><br>
+        
+        ➤ <u>Revealing Section:</u> This is the section where image with secret image is upload then upon pressing display the ordinary and secret image 
+          can be viewed.<br><br>
+        **Please give it a try to experience secrecy by steganography process**</b>
+      </p>
+    </div>
+
+
+    <h2><br>UPLOAD ORDINARY & SECRET IMAGE TO HIDE</h2>
+    
+    <table>
+      
+      <tr>
+        <td> <canvas id = "stcan1"></canvas></td>
+        <td> <canvas id = "stcan2"></canvas></td>
+        <td> <canvas id = "stcan3"></canvas></td>
+      </tr>
+      
+      <tr>
+        <td class = "sttd">Insert Image To View <input type = "file" multiple = "false" type = "image/*" id = "finput2" onchange = "upload2()"></td>
+        <td class = "sttd">Insert Image To Hide <input type = "file" multiple = "false" type = "image/*" id = "finput3" onchange = "upload3()"></td>
+        <td class = "sttd">Press <input type = "button" value = "Observe" onclick = "hideImage()"> to View obtained Image.</td>
+      </tr>
+
+    </table>
+    
+    <h2><br>UPLOAD IMAGE TO EXTRACT SECRET IMAGE</h2>
+    
+    <table>
+    
+      <tr>
+        <td> <canvas id = "stcan4"></canvas></td>
+        <td> <canvas id = "stcan5"></canvas></td>
+        <td> <canvas id = "stcan6"></canvas></td>
+      </tr>
+    
+      <tr>
+        <td class = "sttds">Insert Image <input type = "file" multiple = "false" type = "image/*" id = "finput4" onchange = "upload4()"></td>
+        <td class = "sttds">Press <input type = "button" value = "Display" onclick = "showImage()"> to observe Extracted Image.</td>
+        <td class = "sttds"> This is the Hidden Image</td>
+      </tr>
+    
+    </table>
+  
+  </body>
+
+  <script  src="./script.js"></script>
+
+</body>
+
+</html>
