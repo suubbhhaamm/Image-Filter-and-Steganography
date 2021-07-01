@@ -4,7 +4,7 @@
 ### About Steganography  
 Steganography is the technique of hiding secret data within an ordinary, non-secret, file or message in order to avoid detection, the secret data is then extracted at its destination. To implement steganography set of algorithms and manipulations are applied to JS code.  
   
-**Use:**  
+**Uses:**  
 1. Provided with encryption as an extra step for hiding or protecting data.  
 2. Data compression since combine one or more images into one.  
 3. To share confidential data over web with the secrecy it provide.  
@@ -26,5 +26,5 @@ Step 4 - Now you are all set to enjoy this webpage's functionalities.
 ![steganography_ui](https://user-images.githubusercontent.com/33429953/124106019-74ca8d80-da81-11eb-8fab-92a0492dc8aa.png)
   
     
-**Click [here](https://searchsecurity.techtarget.com/definition/steganography) to know more about STEGANOGRAPHY**  
-**Click [here](https://www.w3schools.com/) to understand FRONTEND technologies in depth**  
+**Click [here](https://searchsecurity.techtarget.com/definition/steganography) to know more about STEGANOGRAPHY.**  
+**Click [here](https://www.w3schools.com/) to understand FRONTEND technologies in depth.**  
