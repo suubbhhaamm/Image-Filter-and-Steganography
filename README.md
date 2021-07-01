@@ -1,5 +1,5 @@
 # IMAGE FILTER AND STEGANOGRAPHY
-**This project is build using frontend technologies like HTML, CSS and Javascript. This is a fun webpage that allows the user to apply various filter to the uploaded images. Also, there is a segment where we can apply steganography to the pair of ordinary and secret image.**  
+**This project is build using frontend technologies like HTML, CSS and Javascript. This is a fun webpage that allows the user to apply various filter to the uploaded images. Also, there is a segment where user can apply steganography to the pair of ordinary and secret image.**  
   
 ### About Steganography  
 Steganography is the technique of hiding secret data within an ordinary, non-secret, file or message in order to avoid detection, the secret data is then extracted at its destination. To implement steganography set of algorithms and manipulations are applied to JS code.  
