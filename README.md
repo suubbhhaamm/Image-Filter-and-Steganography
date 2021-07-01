@@ -26,5 +26,5 @@ Step 4 - Now you are all set to enjoy this webpage's functionalities.
 ![steganography_ui](https://user-images.githubusercontent.com/33429953/124106019-74ca8d80-da81-11eb-8fab-92a0492dc8aa.png)
   
     
-**Click [here](https://searchsecurity.techtarget.com/definition/steganography) to know more about STEGANOGRAPHY**
+**Click [here](https://searchsecurity.techtarget.com/definition/steganography) to know more about STEGANOGRAPHY**  
 **Click [here](https://www.w3schools.com/) to understand FRONTEND technologies in depth**  
